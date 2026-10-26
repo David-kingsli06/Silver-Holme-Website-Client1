@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
+import WrapperNav from "@/components/Navbar/WrapperNav";
+import Footer from "@/components/Footer";
 
 const cormorant = Cormorant_Garamond({
   weight: ["300", "400", "500", "600", "700"],
@@ -17,8 +19,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Silver Holem",
-  description: "Silver Holem, a coffee estate in Madikeri, Coorg, established 1924.",
+  title: "Silver Holme",
+  description: "Silver Holme, a coffee estate in Madikeri, Coorg, established 1924.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -28,7 +30,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${cormorant.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-[family-name:var(--font-inter)]">
+        <WrapperNav/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

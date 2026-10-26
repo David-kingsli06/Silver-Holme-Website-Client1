@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes gallery-reel {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    /* One full set of photos, since the reel repeats six times */
+    transform: translateX(-16.6667%);
+  }
+}
+
+@keyframes gallery-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

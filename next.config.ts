@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  allowedDevOrigins: ["172.168.151.190"], // replace with your laptop's IP
   experimental: {
     agentFeedback: true,
   },
