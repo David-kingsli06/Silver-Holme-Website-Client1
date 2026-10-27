@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const keyFeatures = [
   "22 acres of private land",
-  "A private canal with still green water",
+  "A private stream with still green water",
   "Six rooms today",
   "Three generations of care",
 ];
