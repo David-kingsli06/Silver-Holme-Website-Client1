@@ -8,7 +8,7 @@ const Footer = () => {
         {/* Brand */}
         <div className="flex flex-col items-center gap-3 lg:items-start">
           <p className="font-[family-name:var(--font-cormorant)] text-2xl font-semibold uppercase tracking-[0.2em]">
-            Silver Holem
+            Silver Holme
           </p>
           <p className="font-[family-name:var(--font-inter)] text-xs uppercase tracking-[0.25em] text-[#EEF0EA]/70">
             Madikeri, Coorg, Karnataka
@@ -41,7 +41,7 @@ const Footer = () => {
       {/* Back to top, rule, and copyright */}
       <div className="mx-auto mt-12 flex w-[90%] flex-col items-center gap-6 border-t border-[#EEF0EA]/15 pt-6 xl:w-[80%] md:flex-row md:justify-between">
         <p className="font-[family-name:var(--font-inter)] text-[10px] uppercase tracking-[0.25em] text-[#EEF0EA]/50">
-          © 2026 Silver Holem. All rights reserved.
+          © 2026 Silver Holme. All rights reserved.
         </p>
 
         <a

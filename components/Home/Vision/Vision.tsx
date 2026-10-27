@@ -127,7 +127,7 @@ const Vision = () => {
           />
         </div>
         <figcaption className="mt-4 text-center font-[family-name:var(--font-inter)] text-xs uppercase tracking-[0.25em] text-[#EEF0EA]/60">
-          A room at Silver Holem
+          A room at Silver Holme
         </figcaption>
       </figure>
       <div className="mx-auto mt-20 h-px w-full bg-[#8A6A3B]" />
