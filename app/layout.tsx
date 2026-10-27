@@ -3,6 +3,7 @@ import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 import WrapperNav from "@/components/Navbar/WrapperNav";
 import Footer from "@/components/Footer";
+import FloatingButton from "@/components/Helper/FloatingButton";
 
 const cormorant = Cormorant_Garamond({
   weight: ["300", "400", "500", "600", "700"],
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <WrapperNav/>
         {children}
         <Footer/>
+        <FloatingButton/>
       </body>
     </html>
   );

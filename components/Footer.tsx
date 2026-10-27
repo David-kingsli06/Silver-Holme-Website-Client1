@@ -54,6 +54,20 @@ const Footer = () => {
           </span>
         </a>
       </div>
+      <div className="mx-auto mt-10 w-[80%] gap-6 border-t border-[#EEF0EA]/15" />
+      <div className="mx-auto mt-6 w-[90%] text-center xl:w-[80%] md:text-left">
+  <p className="font-[family-name:var(--font-inter)] text-xs tracking-wide text-[#EEF0EA]/60">
+    Designed & developed by{" "}
+    <a
+      href="https://www.blackarrowtechnologies.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#EEF0EA] underline underline-offset-4 decoration-[#EEF0EA]/40 transition-colors duration-200 hover:text-[#8A6A3B] hover:decoration-[#8A6A3B]"
+    >
+      Black Arrow Technologies
+    </a>
+  </p>
+</div>
     </footer>
   );
 };
