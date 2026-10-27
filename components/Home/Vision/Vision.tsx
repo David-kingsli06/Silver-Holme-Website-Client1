@@ -117,7 +117,7 @@ const Vision = () => {
 
       {/* Image, same proportions as the Estate page */}
       <figure className="mt-16">
-        <div data-aos="fade-out" className="relative aspect-[5/6] w-full overflow-hidden md:aspect-[19/10]">
+        <div className="relative aspect-[5/6] w-full overflow-hidden md:aspect-[19/10]">
           <Image
             src="/images/pexels-renjith-tomy-pkm-138432405-10821527.jpg"
             alt="A guest room at Silver Holem with soft light and wooden furnishings"
