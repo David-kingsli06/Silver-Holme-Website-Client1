@@ -54,19 +54,7 @@ const Coorg = () => {
               </li>
             ))}
           </ul>
-
-          <div className="mt-12 grid grid-cols-2 gap-x-6 gap-y-10">
-            {stats.map((s) => (
-              <div key={s.label} className="border-t border-[#8A6A3B]/50 pt-4">
-                <p className="font-[family-name:var(--font-cormorant)] text-4xl text-center leading-none text-[#EEF0EA]">
-                  {s.value}
-                </p>
-                <p className="mt-2 font-[family-name:var(--font-inter)] text-[10px] text-center uppercase tracking-[0.2em] text-[#EEF0EA]/70">
-                  {s.label}
-                </p>
-              </div>
-            ))}
-          </div>
+          
         </aside>
 
         {/* Right column: famous spots */}
