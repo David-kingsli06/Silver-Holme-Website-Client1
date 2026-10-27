@@ -20,6 +20,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  robots:{index:false,follow:false},
   title: "Silver Holme",
   description: "Silver Holme, a coffee estate in Madikeri, Coorg, established 1924.",
 };
