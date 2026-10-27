@@ -21,7 +21,7 @@ const PartnerWithUS = () => {
 
           <div className="mt-5 space-y-5 font-[family-name:var(--font-inter)] text-base font-light leading-relaxed text-[#EEF0EA]">
             <p className="mt-10 max-w-xl font-[family-name:var(--font-inter)] text-base font-light leading-relaxed text-[#EEF0EA]">
-  We invite thoughtful partners to help us shape a quiet hospitality stay in the Coorg hills. We are looking for investors, hospitality operators, designers, architects, and wellness brands who care about the land as much as we do. Together, we want to build a small destination of twelve rooms, where nature, rest, and considered design meet. The bungalow has stood here since 1924, and the family will keep the land. Our aim is a stay that feels rooted in its place, shaped with care rather than display. If you share this vision, tell us who you are and what you would bring to it. We read every message and will reply to you personally.
+  We invite thoughtful partners to help us shape a quiet hospitality stay in the Coorg hills. We are looking for a partner who care about the land as much as we do. Together, we want to build a small destination of twelve rooms, where nature, rest, and considered design meet. The bungalow has stood here since 1924, and the family will keep the land. Our aim is a stay that feels rooted in its place, shaped with care rather than display. If you share this vision, tell us who you are and what you would bring to it. We read every message and will reply to you personally.
 </p>
           </div>
         </div>
