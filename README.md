@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Silver Holem Heritage
 
-## Getting Started
+A single-page website for Silver Holem, a 22-acre coffee and pepper estate in Madikeri, Kodagu (Coorg), Karnataka. The site presents the property and its 1924 planter's bungalow, and invites hospitality partners to take part in a planned 12-room boutique stay.
 
-First, run the development server:
+## Features
+
+- Full-screen hero with property highlights
+- Responsive navigation with a glass-style mobile menu
+- Property and vision sections
+- Contact form that sends submissions through Web3Forms
+- "Connect on WhatsApp" button, shown when a WhatsApp number is configured
+- Scroll animations with AOS
+
+## Tech stack
+
+- [Next.js 16](https://nextjs.org/) (App Router)
+- [React 19](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS v4](https://tailwindcss.com/)
+- [Web3Forms](https://web3forms.com/) for form delivery
+- Fonts: Cormorant Garamond and Inter, loaded with `next/font/google`
+
+## Getting started
+
+### Prerequisites
+
+- Node.js 20.9 or later
+- npm (or pnpm, yarn, or bun)
+
+### Installation
+
+```bash
+git clone https://github.com/David-kingsli06/Silver-Holme-Website-Client1.git
+cd Silver-Holme-Website-Client1
+npm install
+```
+
+### Environment variables
+
+Copy the example file and fill in your values:
+
+```bash
+cp .env.example .env
+```
+
+| Variable | Purpose |
+| --- | --- |
+| `NEXT_PUBLIC_WEB3FORMS_KEY` | Access key for the contact form |
+| `NEXT_PUBLIC_WHATSAPP_NUMBER` | WhatsApp number with country code and no `+`, spaces, or dashes, for example `919876543210` |
+
+Never commit `.env` to Git. On Vercel, add these variables under **Settings → Environment Variables**.
+
+### Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+## Project structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+app/            Routes, layout, and global styles
+components/     Page sections and UI components (Nav, MobileNav, Hero, Home, WhatsAppButton)
+constant/       Shared data such as navigation links
+public/images/  Photographs used on the site
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The site is deployed on [Vercel](https://vercel.com/). Every push to the `main` branch triggers a new production build.
 
-## Deploy on Vercel
+## Credits
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Photographs are credited in [CREDITS.md](./CREDITS.md).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+All rights reserved. The property content, text, and photographs belong to the Silver Holem family unless stated otherwise.
